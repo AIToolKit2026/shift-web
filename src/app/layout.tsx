@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const title = "ZapForge — Migrate legacy code at scale, without losing control of it";
+const title = "Shift — Migrate legacy code at scale, without losing control of it";
 const description =
-  "ZapForge is a migration and modernization workbench. Describe a change; it plans it, waits for a human to approve the plan, executes in an isolated worktree, and returns a reviewable diff, a test report and a security scan \u2014 all on your own machines.";
+  "Shift is a migration and modernization workbench. Describe a change; it plans it, waits for a human to approve the plan, executes in an isolated worktree, and returns a reviewable diff, a test report and a security scan \u2014 all on your own machines.";
 
 export const metadata: Metadata = {
   // Update when a custom domain is attached in Vercel.
@@ -38,14 +38,14 @@ export const metadata: Metadata = {
     "CBUAE",
     "SAMA",
     "Zapcom",
-    "ZapForge",
+    "Shift",
   ],
   authors: [{ name: "Zapcom" }],
   openGraph: {
     title,
     description,
     type: "website",
-    siteName: "ZapForge",
+    siteName: "Shift",
   },
   twitter: {
     card: "summary_large_image",

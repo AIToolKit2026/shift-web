@@ -44,11 +44,11 @@ export default function Cta() {
           </p>
           <a
             href={`mailto:${contact.email}?subject=${encodeURIComponent(
-              "ZapForge — 20 minutes on our modernization workstream",
+              "Shift — 20 minutes on our modernization workstream",
             )}`}
             className="mt-6 inline-flex items-center gap-2 rounded-md bg-white px-6 py-3.5 text-sm font-semibold text-navy-950 transition-colors hover:bg-white/90"
           >
-            Email the ZapForge team
+            Email the Shift team
             <span aria-hidden="true">→</span>
           </a>
         </div>

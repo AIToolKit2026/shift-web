@@ -1,5 +1,5 @@
 {
-  "name": "zapforge-web",
+  "name": "shift-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -23,5 +23,5 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   },
-  "description": "ZapForge landing page — governed migration and modernisation for Gulf banks"
+  "description": "Shift landing page — governed migration and modernisation for Gulf banks"
 }

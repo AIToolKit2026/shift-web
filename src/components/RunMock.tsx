@@ -3,7 +3,7 @@
 import { useEffect, useState, useSyncExternalStore } from "react";
 
 /**
- * An animated recreation of a real ZapForge run, used as the hero visual.
+ * An animated recreation of a real Shift run, used as the hero visual.
  *
  * The stage names, details and durations are the same ones the product uses for
  * an Express 4 → Fastify 4 migration. The point of the animation is the gate in
@@ -144,7 +144,7 @@ export default function RunMock() {
     <div
       className="overflow-hidden rounded-xl border border-white/12 bg-[#0b0d12] shadow-2xl shadow-black/50"
       role="img"
-      aria-label="ZapForge running an Express 4 to Fastify 4 migration: three planning stages complete, a human approves the plan, three execution stages run in an isolated worktree, and the run finishes with a reviewable diff and a cost of 412,000 tokens or 1.84 US dollars."
+      aria-label="Shift running an Express 4 to Fastify 4 migration: three planning stages complete, a human approves the plan, three execution stages run in an isolated worktree, and the run finishes with a reviewable diff and a cost of 412,000 tokens or 1.84 US dollars."
     >
       {/* Title bar */}
       <div className="flex items-center gap-3 border-b border-white/10 bg-white/[0.03] px-4 py-3">
@@ -154,7 +154,7 @@ export default function RunMock() {
           <span className="h-2.5 w-2.5 rounded-full bg-white/20" />
         </div>
         <p className="font-mono text-[11px] text-white/40">
-          zapforge <span className="text-white/25">/ workbench /</span> run_mig01
+          shift <span className="text-white/25">/ workbench /</span> run_mig01
         </p>
         <span
           className={`ml-auto inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 font-mono text-[10px] tracking-wider uppercase transition-colors duration-500 ${

@@ -2,7 +2,7 @@
  * Single source of truth for all landing-page copy.
  *
  * Product facts (modes, templates, run stages, engines, cost meter) are drawn
- * from the ZapForge application itself — see AIToolKit2026/zapforge. Regulatory
+ * from the Shift application itself — see AIToolKit2026/zapforge. Regulatory
  * and institutional references are drawn from public disclosures.
  *
  * Edit copy here, not in the components.
@@ -27,7 +27,7 @@ export const hero = {
   eyebrow: "Migration & modernization workbench",
   headline: "Migrate legacy code at scale.",
   headlineAccent: "Without losing control of it.",
-  lede: "ZapForge turns your modernization backlog into governed runs: it plans the change, waits for an engineer to approve that plan, executes in an isolated worktree, and hands back a reviewable diff and a security scan \u2014 on your own machines.",
+  lede: "Shift turns your modernization backlog into governed runs: it plans the change, waits for an engineer to approve that plan, executes in an isolated worktree, and hands back a reviewable diff and a security scan \u2014 on your own machines.",
   primaryCta: "Book a 20-minute demo",
   secondaryCta: "See a run, end to end",
   badges: [
@@ -84,7 +84,7 @@ export const problem = {
     },
   ],
   pullquote:
-    "ZapForge exists for that gap: the change is mechanical enough to automate, and consequential enough that it has to be governed.",
+    "Shift exists for that gap: the change is mechanical enough to automate, and consequential enough that it has to be governed.",
 } as const;
 
 export const product = {
@@ -103,7 +103,7 @@ export const product = {
       ],
       // Rendered by WorkbenchMock rather than screenshotted — see that component.
       shot: "mock:workbench",
-      alt: "The ZapForge workbench home screen listing five recent runs across four repositories, with cards for the migration, modernization and greenfield modes",
+      alt: "The Shift workbench home screen listing five recent runs across four repositories, with cards for the migration, modernization and greenfield modes",
     },
     {
       n: "02",
@@ -115,19 +115,19 @@ export const product = {
         "Per-run model and engine selection",
       ],
       shot: "/shots/composer.png",
-      alt: "ZapForge composer with a migration prompt describing an Express 4 to Fastify 4 move on acme/payments-service",
+      alt: "Shift composer with a migration prompt describing an Express 4 to Fastify 4 move on acme/payments-service",
     },
     {
       n: "03",
       title: "It plans before it touches anything",
-      body: "ZapForge indexes the repository, detects what is actually in use, and proposes a step-by-step plan with file counts and expected durations. Not a single line is written until a human approves that plan.",
+      body: "Shift indexes the repository, detects what is actually in use, and proposes a step-by-step plan with file counts and expected durations. Not a single line is written until a human approves that plan.",
       bullets: [
         "Repository indexed and dependencies detected",
         "Plan as a timeline or a dependency graph",
         "Hard approval gate before execution",
       ],
       shot: "/shots/plan.png",
-      alt: "ZapForge run plan showing six completed stages from repository scan through test suite, with per-stage durations",
+      alt: "Shift run plan showing six completed stages from repository scan through test suite, with per-stage durations",
     },
     {
       n: "04",
@@ -139,7 +139,7 @@ export const product = {
         "Export the patch or open a pull request",
       ],
       shot: "/shots/diff.png",
-      alt: "ZapForge split diff view comparing before and after for server.ts, showing plus eighteen and minus sixteen lines",
+      alt: "Shift split diff view comparing before and after for server.ts, showing plus eighteen and minus sixteen lines",
     },
     {
       n: "05",
@@ -151,7 +151,7 @@ export const product = {
         "Commit list tied back to the approved plan",
       ],
       shot: "/shots/summary.png",
-      alt: "ZapForge pull request preview with highlights, a passing check matrix and the commit list for the Fastify migration",
+      alt: "Shift pull request preview with highlights, a passing check matrix and the commit list for the Fastify migration",
     },
     {
       n: "06",
@@ -163,7 +163,7 @@ export const product = {
         "Severity-graded security scan on the result",
       ],
       shot: "/shots/logs.png",
-      alt: "ZapForge logs tab showing the runner transcript alongside a cost panel reading 412.0K tokens and 1.84 US dollars",
+      alt: "Shift logs tab showing the runner transcript alongside a cost panel reading 412.0K tokens and 1.84 US dollars",
     },
   ],
 } as const;
@@ -176,7 +176,7 @@ export const gates = {
     {
       n: 1,
       title: "Plan",
-      body: "ZapForge proposes an executable plan with target files, risks and rollback notes. No code is written yet.",
+      body: "Shift proposes an executable plan with target files, risks and rollback notes. No code is written yet.",
       highlight: false,
     },
     {
@@ -405,7 +405,7 @@ export const security = {
   cards: [
     {
       tag: "Stays in jurisdiction",
-      body: "ZapForge runs on your own machines inside your own environment. Your repository is never uploaded to a vendor cloud, so residency requirements from SAMA, the CBUAE or your local regulator are not affected by using it.",
+      body: "Shift runs on your own machines inside your own environment. Your repository is never uploaded to a vendor cloud, so residency requirements from SAMA, the CBUAE or your local regulator are not affected by using it.",
     },
     {
       tag: "Nothing ungated",
@@ -460,7 +460,7 @@ export const pricing = {
       subtitle: "Programme plus delivery",
       featured: false,
       items: [
-        "ZapForge inside a wider Zapcom programme",
+        "Shift inside a wider Zapcom programme",
         "Joint accountability for the delivered outcome",
         "On-site presence where the programme needs it",
         "Commercials built around the programme plan",
@@ -483,7 +483,7 @@ export const cta = {
     },
     {
       label: "Weeks 1 to 3",
-      body: "Zapcom engineers run the workflow through ZapForge alongside your team, on your machines.",
+      body: "Zapcom engineers run the workflow through Shift alongside your team, on your machines.",
     },
     {
       label: "Week 4",

@@ -1,5 +1,5 @@
 /**
- * The ZapForge workspace screen, rebuilt in markup rather than screenshotted.
+ * The Shift workspace screen, rebuilt in markup rather than screenshotted.
  *
  * The captured dark-mode screenshot of this screen was taken mid theme
  * transition, so its run rows and titles rendered with light-mode styling.
@@ -77,7 +77,7 @@ export default function WorkbenchMock() {
       {/* Top bar */}
       <div className="flex items-center gap-3 border-b border-[#262626] px-5 py-3">
         <p className="font-mono text-[11px] text-[#8e8e8e]">
-          zapforge <span className="text-[#5c5c5c]">/ workbench</span>
+          shift <span className="text-[#5c5c5c]">/ workbench</span>
         </p>
         <div className="ml-auto hidden items-center gap-2 sm:flex">
           <span className="rounded-md border border-[#262626] bg-[#111111] px-3 py-1.5 font-mono text-[11px] text-[#5c5c5c]">

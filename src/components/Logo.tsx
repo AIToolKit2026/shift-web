@@ -8,12 +8,9 @@ export default function Logo({ tone = "light", className = "" }: LogoProps) {
   return (
     <span
       className={`font-bold tracking-tight select-none ${className}`}
-      aria-label="ZapForge"
+      aria-label="Shift"
     >
-      <span className={tone === "dark" ? "text-brand-bright" : "text-brand"}>
-        zap
-      </span>
-      <span className={tone === "dark" ? "text-white" : "text-ink"}>forge</span>
+      <span className={tone === "dark" ? "text-white" : "text-ink"}>shift</span>
       <span className="text-forge">.</span>
     </span>
   );

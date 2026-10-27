@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "ZapForge — Migrate legacy code at scale, without losing control of it";
+export const alt = "Shift — Migrate legacy code at scale, without losing control of it";
 
 export default function OpengraphImage() {
   return new ImageResponse(
@@ -21,8 +21,7 @@ export default function OpengraphImage() {
         }}
       >
         <div style={{ display: "flex", fontSize: 40, fontWeight: 700 }}>
-          <span style={{ color: "#4d7cfe" }}>zap</span>
-          <span style={{ color: "#ffffff" }}>forge</span>
+          <span style={{ color: "#ffffff" }}>shift</span>
           <span style={{ color: "#ee6a24" }}>.</span>
         </div>
 

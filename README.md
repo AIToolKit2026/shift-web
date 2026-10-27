@@ -1,9 +1,9 @@
-# ZapForge — landing page
+# Shift — landing page
 
-Marketing site for **ZapForge**, Zapcom's governed migration and modernization
+Marketing site for **Shift**, Zapcom's governed migration and modernization
 workbench.
 
-The page is product-first: it leads with what ZapForge does, shows the real
+The page is product-first: it leads with what Shift does, shows the real
 application, and treats Gulf open-banking as the proof section rather than the
 frame. Product facts and screenshots come from the application itself
 ([AIToolKit2026/zapforge](https://github.com/AIToolKit2026/zapforge)).
@@ -54,9 +54,10 @@ whole page.
 
 ## Deployment
 
-Deployed on Vercel (team `zapforge`, project `zapforge-web`) and connected to
-this repository, so every push to `main` ships to production and branches get
-preview URLs.
+Deployed on Vercel (team `zapforge`, project `zapforge-web`). That project was
+connected to the old `AIToolKit2026/zapforge-web` repository; reconnect it to
+this repository (Vercel → Project → Settings → Git) so every push to `main`
+ships to production and branches get preview URLs.
 
 Production: **https://zapforge-web.vercel.app**
 
